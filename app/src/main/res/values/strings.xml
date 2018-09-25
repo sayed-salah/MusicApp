@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="welcomtext">this app contant at a song and song details and  all program categores</string>
+    <string name="songbtn">Song</string>
+    <string name="album_name">Album Name :</string>
+    <string name="singer">Singer :</string>
+    <string name="realse_date">Realse Date :</string>
+    <string name="song_details">Song Details</string>
+    <string name="detailreview">here some detail about this song.. </string>
+    <string name="backtohome">Home</string>
+    <string name="songlabeldetail"> Song Name</string>
+    <string name="songsname">Songs Names</string>
+    <string name="playingsong">Playing Songs</string>
+    <string name="detailbtn">Detail Activity</string>
+    <string name="songexplan">This Activity for playing a song and we add Recycler view to handel the songs and there component</string>
+    <string name="librarytitlename">EXOplayer</string>
+    <string name="libraryexplain">ExoPlayer is an open source project ExoPlayer
+        standard audio and video components are built on Android MediaCodec API,
+        which was released in Android 4.1 (API level 16) ExoPlayer supports features like Dynamic adaptive streaming over HTTP (DASH)
+        , SmoothStreaming and Common Encryption, which are not supported by MediaPlayer.
+        It designed to be easy to customize and extend.</string>
+    <string name="librarylabel">Music Library</string>
+</resources>

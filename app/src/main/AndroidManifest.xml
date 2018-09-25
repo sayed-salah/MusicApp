@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sayedsalah.musicapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lancher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SongActivity"
+            android:label="@string/songbtn"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:label="@string/song_details"
+            android:parentActivityName=".SongActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SongActivity" />
+        </activity>
+        <activity android:name=".MusicLibrary"
+         android:label="@string/librarylabel"
+            android:parentActivityName=".MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+
+        </activity>
+    </application>
+
+</manifest>
